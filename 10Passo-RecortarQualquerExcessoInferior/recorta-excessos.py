@@ -128,7 +128,7 @@ def processar_imagens(pasta_origem, pasta_destino, cor_alvo=(64, 193, 243)):
 # Função principal
 if __name__ == "__main__":
     # Configurações
-    pasta_origem = "../9Passo-JuntarQuestoes"
+    pasta_origem = "../10Passo-RecortarQualquerExcessoInferior"
     pasta_destino = "."
     cor_azul = (64, 193, 243)  # RGB para #40c1f3
     
