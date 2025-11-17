@@ -13,7 +13,8 @@ Renomear as imagens
 
 # Especifidades técnicas
 ## Programas e bibliotecas utilziadas
-python  
+Linux Mint 22.1
+Python 3  
 gthumb  
 os  
 pdf2image  
