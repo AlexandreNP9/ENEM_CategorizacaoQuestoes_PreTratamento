@@ -22,7 +22,15 @@ pillow
 
 # Antes de executar o código
 ## Criar variável de ambiente
+```
 python3 -m venv venv  
 source venv/bin/activate  
+```
 
+## Instalar o pdf2image
+```
 pip3 install pdf2image  
+```
+
+## Executar os códigos nas pastas
+Cada pasta tem códigos ou instruções específicas
