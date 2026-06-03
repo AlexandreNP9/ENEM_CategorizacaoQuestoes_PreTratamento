@@ -6,16 +6,13 @@ Atualização: 03/06/2026
 
 OBS1: puxe todas as pastas do passo 8 para este passo 9
 OBS2: você vai atualizar o nome das imagens para seguir um padrão, mas você vai fazer isso pasta por pasta
-OBS3: atualize a linha 16 com o nome da pasta das questões que você vai arrumar
-OBS4: na linha 28
-
-Comentário 1: atualizar as linhas 11, 20 (comentário para entender a lógica), 21, 22 e 23
-Comentário 2: geralmente, as imagens parte_001.png das pastas é um lixinho
+OBS3: atualize a linha 15 com o nome da pasta das questões que você vai arrumar
+OBS4: ENTENDA muito bem o for da linha 25!!!!!!!!!!!
 """
 import os
 
 def renomear_questoes_simples():
-    pasta = "77-79"
+    pasta = "80-90"
     
     if not os.path.exists(pasta):
         print(f"Pasta {pasta} não encontrada!")
