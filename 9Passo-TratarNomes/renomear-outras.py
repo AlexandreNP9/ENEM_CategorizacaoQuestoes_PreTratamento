@@ -1,14 +1,21 @@
 """
 Propósito: Renomear as imagens do padrão parte_0xx.png para questao-xx.png
 Autor: Alexandre Nassar de Peder
-Data: 02/10/2025
+Criação: 02/10/2025
+Atualização: 03/06/2026
+
+OBS1: puxe todas as pastas do passo 8 para este passo 9
+OBS2: você vai atualizar o nome das imagens para seguir um padrão, mas você vai fazer isso pasta por pasta
+OBS3: atualize a linha 16 com o nome da pasta das questões que você vai arrumar
+OBS4: na linha 28
+
 Comentário 1: atualizar as linhas 11, 20 (comentário para entender a lógica), 21, 22 e 23
 Comentário 2: geralmente, as imagens parte_001.png das pastas é um lixinho
 """
 import os
 
 def renomear_questoes_simples():
-    pasta = "questoes-paginas-29a31"
+    pasta = "77-79"
     
     if not os.path.exists(pasta):
         print(f"Pasta {pasta} não encontrada!")
@@ -17,10 +24,13 @@ def renomear_questoes_simples():
     # Mapeamento direto dos nomes antigos para os novos
     mapeamento = {}
         
-    # Questões normais: parte_002 a parte_032 -> questao-46 a questao-76
-    for i in range(2, 12+1):
+    # Exemplo: parte_00x a parte_00y -> questao-x a questao-y
+    for i in range(81, 91+1):    # atualize seu for com o número da primeira imagem "parte_AlgumaCoisa.png" até o número da última imagem "parte_AlgumaCoisa.png" mais 1 da pasta
         antigo = f"parte_{i:03d}.png"
-        novo = f"questao-{i+78}.png"
+        #novo = f"questao-{i+78}-espanhol.png"  # faça uma conta: se a primeira pagina for 
+        #novo = f"questao-{i+78}-ingles.png"
+        novo = f"questao-{i-1}.png" # faça uma conta: se o i do teu for está em 2, e precisa virar questão 35, como você transforma 2 em 35? faça a conta e coloque dentro da concatenação
+        
         mapeamento[antigo] = novo
     
     # Aplicar o renomeamento
