@@ -3,10 +3,11 @@ Propósito: converter o arquivo PDF em imagens PNG
 Autor: Alexandre Nassar de Peder
 Criação: 02/10/2025.
 Atualização: 03/06/2026
+
 OBS1: coloque o arquivo PDF na mesma pasta deste script
 OBS2: na linha 13, especifique o nome do arquivo PDF que deseja converter.
 OBS3: depois de executar, tem que excluir as imagens com nome de código estranho da pasta de saída, deixando só os nomes que fazem sentido
-OBS4: excluia as páginas 1 (capa), 19 (proposta de redação) e 32 (rascunho da redação)
+OBS4: exclua as páginas 1 (capa), 19 (proposta de redação) e 32 (rascunho da redação)
 """
 
 from pdf2image import convert_from_path

@@ -1,7 +1,14 @@
 """
 Propósito: Remover a bordinha interna que fica entre as colunas
-Autor: ALexandre Nassar de Peder
-Data: 02/10/2025
+Autor: Alexandre Nassar de Peder
+Criação: 02/10/2025
+Atualização: 03/06/2026
+
+OBS1: puxe a pasta "divididas-com-bordas-do-meio" do passo 3 para essa pasta do passo 4
+OBS2: As imagens da coluna da esquerda tem uma bordinha no lado direito
+OBS3: As imagens da coluna da direita tem uma bordinha no lado esquerdo
+OBS4: tive que contar pixels usando o GIMP para saber quanto pixels cortar de borda interna
+
 """
 from PIL import Image
 import os
