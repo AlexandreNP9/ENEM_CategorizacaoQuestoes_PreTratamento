@@ -1,8 +1,13 @@
 """
-Propósito: Dividir as questões concatenadas verticalmente pela faixa azul de início da questão
+Propósito: Dividir as questões faixa azul, que é o padrão de início de cada questão
 Autor: Alexandre Nassar de Peder
-Data: 02/10/2025
-Comentário: atualizar as linhas 122 e 123
+Criação: 02/10/2025
+Atualização: 03/06/2026
+
+OBS1: puxe a imagem "colunas_concatenadas_verticalmente.png" do passo 6 para essa pasta do passo 7
+OBS2: puxe a pasta "inteiras" do passo 5 para essa pasta do passo 7
+OBS3: atualizar as linhas 127 a 133. Compensa rodar esse código uma vez para as questões concatenadas, depois para as questões de cada página inteira
+OBS4: se você fizer esse código com um caderno de cor diferente, precisa usar o GIMP para descobrir a cor RGB exata das faixas que dividem as questões, e então alterar a variavel da linha 136
 """
 
 from PIL import Image
@@ -119,8 +124,13 @@ def dividir_imagem_por_faixas(caminho_imagem, pasta_saida, cor_alvo=(64, 193, 24
 # Exemplo de uso
 if __name__ == "__main__":
     # Configurações
-    caminho_imagem = "29a31.png"  # Substitua pelo caminho da sua imagem
-    pasta_saida = "questoes-paginas-29a31"
+    #caminho_imagem = "colunas_concatenadas_verticalmente.png"  # Substitua pelo caminho da sua imagem
+    #caminho_imagem = "./inteiras/pagina_enem_15.png"  # Substitua pelo caminho da sua imagem
+    caminho_imagem = "./inteiras/pagina_enem_28.png"  # Substitua pelo caminho da sua imagem
+    
+    #pasta_saida = "questoes_colunas" # Substitua pelo nome da pasta de saída desejada (questoes_colunas, pagina_15, pagina_28)
+    #pasta_saida = "pagina_15" # Substitua pelo nome da pasta de saída desejada (questoes_colunas, pagina_15, pagina_28)
+    pasta_saida = "pagina_28" # Substitua pelo nome da pasta de saída desejada (questoes_colunas, pagina_15, pagina_28)
     
     # Converte a cor do GIMP (25.1, 75.7, 95.3) para RGB (0-255)
     cor_azul = converter_cor_gimp_para_rgb(25.1, 75.7, 95.3)
