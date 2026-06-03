@@ -52,4 +52,4 @@ Cada pasta tem códigos ou instruções específicas. Siga os passos com atenç�
 
 ## O que fazer depois?
 Esse repositório serve de base para os passos para tratar o caderno 1 azul de 2024.  
-Você pode seguir a mesma estrutura com os outros cadernos do ENEM.  
+Você pode seguir a mesma estrutura com os outros cadernos do ENEM, inclusive de outras cores.  
