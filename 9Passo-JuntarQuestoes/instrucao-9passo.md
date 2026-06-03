@@ -1,1 +1,0 @@
-só juntar todas as questoes aqui
