@@ -5,7 +5,8 @@ Criação: 02/10/2025
 Atualização: 03/06/2026
 
 OBS1: puxe a pasta "imagens-convertidas" do passo 1 para essa pasta do passo 2
-OBS2: tive que contar pixels usando o GIMP para saber quanto pixels cortar de borda
+OBS2: abra a imagem no GIMP e conte pixels para saber quanto de borda tem que cortar
+OBS3: atualize a linha 27 com os valores corretos de corte (esquerda, superior, direita, inferior)
 """
 
 from PIL import Image
