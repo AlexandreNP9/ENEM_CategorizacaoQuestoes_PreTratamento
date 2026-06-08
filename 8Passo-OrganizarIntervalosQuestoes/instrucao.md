@@ -2,6 +2,8 @@ Esse é o passo em que você mais precisa pensar e analisar!
 
 Seu objetivo aqui é organização. Você vai criar várias pastas para colocar os intervalos das questões.  
 
+Crie uma pasta para colocar cada intervalo sequencial de questões.  
+
 No exemplo do caderno 1 azul de 2024, separou cada questão em uma imagem no passo 7, gerando uma pasta chamada "questoes_colunas", uma pasta chamada "pagina_15" e outra pasta chamada "pagina_28".    
 
 Agora você precisa analisar:  
