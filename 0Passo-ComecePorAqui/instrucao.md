@@ -1,6 +1,6 @@
 Todas as instruções documentadas no README do repositório  
 
-Tenha certeza de que você já configurou seu ambiente, com:
+Tenha certeza de que você já configurou seu ambiente, ao:  
 1 - criar ambiente virtual  
 2 - ativar ambiente virtual  
 3 - instalar biblioteca pdf2image  

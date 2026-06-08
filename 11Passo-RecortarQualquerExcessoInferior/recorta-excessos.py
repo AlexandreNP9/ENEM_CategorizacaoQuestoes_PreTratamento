@@ -7,7 +7,7 @@ Atualização: 03/06/2026
 OBS1: puxe a pasta "questoes" do passo anteriores para este passo 11
 OBS2: atualize a linha 144 para o RGB 0a255 da cor da borda do seu caderno, usando o GIMP para descobrir o RGB
 OBS3: atualize a linha 143 e 142
-OBS4: você precisa analisar o padrão de borda inferior. Ás vezes, nem vai ter borda inferior. ATUALIZE A LINHA 25 COM O PADRÃO DA SUA PROVA
+OBS4: você precisa analisar o padrão de borda inferior. Ás vezes, nem vai ter borda inferior. ATUALIZE A LINHA 25 COM O PADRÃO DA SUA PROVA. Se precisar, use IA para analisar o padrão da faixa inferior
 """
 from PIL import Image
 import os
