@@ -1,20 +1,20 @@
 """
-Propósito: recortar excessos inferiores que possam ter ficado nas imagens, usando a borda azul como referência
+Propósito: recortar excessos inferiores que possam ter ficado nas imagens, usando a borda como referência
 Autor: Alexandre Nassar de Peder
 Criação: 02/10/2025
 Atualização: 03/06/2026
 
 OBS1: puxe a pasta "questoes" do passo anteriores para este passo 11
-OBS2: atualize a linha 141 e 142
-OBS3: se estiver usando um caderno de outra cor, atualize a linha 143 com o RGB da cor da borda do seu caderno
+OBS2: atualize a linha 143 para o RGB 0a255 da cor da borda do seu caderno, usando o GIMP para descobrir o RGB
+OBS3: atualize a linha 141 e 142
 """
 from PIL import Image
 import os
 import shutil
 
-def encontrar_borda_inferior(imagem, cor_alvo=(64, 193, 243), tolerancia=15):
+def encontrar_borda_inferior(imagem, cor_alvo, tolerancia=15):
     """
-    Encontra a borda azul descrita (4px azul, 4px branco, 4px azul) de baixo para cima
+    Encontra a borda descrita de baixo para cima
     Retorna a posição Y onde deve ser feito o corte (acima da borda) ou None se não encontrar
     """
     largura, altura = imagem.size
@@ -89,7 +89,7 @@ def encontrar_borda_inferior(imagem, cor_alvo=(64, 193, 243), tolerancia=15):
     
     return None
 
-def processar_imagens(pasta_origem, pasta_destino, cor_alvo=(64, 193, 243)):
+def processar_imagens(pasta_origem, pasta_destino, cor_alvo):
     """
     Processa todas as imagens da pasta origem, recortando as que têm borda azul inferior
     e copiando todas para a pasta destino
@@ -140,12 +140,12 @@ if __name__ == "__main__":
     # Configurações
     pasta_origem = "./questoes"
     pasta_destino = "finalizadas"
-    cor_azul = (64, 193, 243)  # RGB para #40c1f3
+    cor_alvo = (64, 193, 243)  # RGB 0a255 da cor da borda do caderno (atualize com o RGB correto usando o GIMP)
     
     print("Iniciando processamento de imagens...")
     print(f"Pasta origem: {pasta_origem}")
     print(f"Pasta destino: {pasta_destino}")
-    print(f"Cor alvo: RGB{cor_azul} (#40c1f3)")
+    print(f"Cor alvo: RGB{cor_alvo}")
     
     # Verifica se a pasta origem existe
     if not os.path.exists(pasta_origem):
@@ -153,7 +153,7 @@ if __name__ == "__main__":
         exit(1)
     
     # Executa o processamento
-    processar_imagens(pasta_origem, pasta_destino, cor_azul)
+    processar_imagens(pasta_origem, pasta_destino, cor_alvo)
     
     print("\n" + "="*50)
     print("Processamento concluído!")

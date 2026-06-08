@@ -12,7 +12,7 @@ OBS4: ENTENDA muito bem o for da linha 25!!!!!!!!!!!
 import os
 
 def renomear_questoes_simples():
-    pasta = "80-90"
+    pasta = "80-90" # ATUALIZAR com o nome da pasta das questões que você vai arrumar (ex: 80-90, 15, 28)
     
     if not os.path.exists(pasta):
         print(f"Pasta {pasta} não encontrada!")
