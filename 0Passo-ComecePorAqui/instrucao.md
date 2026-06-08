@@ -1,4 +1,4 @@
-Todas as instruções documentadas no README  
+Todas as instruções documentadas no README do repositório  
 
 Tenha certeza de que você já configurou seu ambiente, com:
 1 - criar ambiente virtual  
