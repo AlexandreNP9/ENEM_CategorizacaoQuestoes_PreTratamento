@@ -40,8 +40,8 @@ def encontrar_faixa_azul(imagem, cor_alvo, tolerancia=15, altura_faixa=10): # AT
         faixa_encontrada = True
         
         for dy in range(altura_faixa):
-            # Pega a cor do pixel atual (verifica no meio da imagem)
-            pixel = pixels[largura // 2, y + dy]
+            # Pega a cor do pixel atual (verifica no último pixel da linha, ou seja, no canto da imagem)
+            pixel = pixels[largura-2, y + dy]  # CORRIGIDO: verificar o pixel próximo ao canto para evitar bordas
             
             if len(pixel) == 4:  # RGBA
                 r, g, b, a = pixel
