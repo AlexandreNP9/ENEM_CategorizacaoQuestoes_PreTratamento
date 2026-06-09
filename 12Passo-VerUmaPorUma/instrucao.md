@@ -9,4 +9,4 @@ Isso significa, avaliar se:
 - se dividiu a questão no meio e vai ter que juntar manualmente  
 - entre outros  
 
-Caso necessário, RECORTE MANUALMENTE USANDO ALGUM PROGRAMA DE RECORTE.  Pode usar o GIMP  
+Caso necessário, RECORTE MANUALMENTE USANDO ALGUM PROGRAMA DE RECORTE. Pode usar o GIMP  
