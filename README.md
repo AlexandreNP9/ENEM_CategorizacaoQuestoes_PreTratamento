@@ -1,8 +1,8 @@
 Olá, seja bem-vindo(a) ao meu repositório!
 
-Esse repositório tem várias branches.  
-Aqui na ```main``` tem apenas essa instrução  
-Nas outras branches tem os códigos.
+# Esse repositório tem várias branches.  
+# Aqui na ```main``` tem apenas essa instrução  
+# Nas outras branches tem os códigos.
 
 # Fase 1 de 5
 Este repositório é sobre o tratamento das imagens dos cadernos de questões do ENEM.  
