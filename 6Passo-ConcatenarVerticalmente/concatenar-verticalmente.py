@@ -1,12 +1,11 @@
 """
-Propósito: concatenas verticalmente as imagens de cada pasta vinda do passo 5
+Propósito: concatenar verticalmente as imagens de cada pasta vinda do passo 5
 Autor: Alexandre Nassar de Peder
 Criação: 02/10/2025
 Atualização: 03/06/2026
 
-OBS1: puxe a pasta "divididas-sem-bordas-do-meio" do passo 4 para essa pasta do passo 5
-OBS2: atualize as linhas 16 e 17 para cada pasta
-OBS3: não compensa concatenar as páginas inteiras. Tenha isso em mente para o passo 7
+OBS1: puxe a pasta "divididas-sem-bordas-do-meio" do passo 5 para essa pasta do passo 6
+OBS2: não compensa concatenar as páginas inteiras. Tenha isso em mente para o passo 7
 """
 
 from PIL import Image

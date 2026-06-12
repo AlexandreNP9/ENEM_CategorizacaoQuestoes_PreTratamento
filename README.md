@@ -15,29 +15,35 @@ Python 3
 pdf2image  
 
 # Antes de executar o código: criar ambiente virtual e instalar a biblioteca pdf2image
-## Criar ambiente virtual no Linux com Python3
+## NO LINUX
+### Criar ambiente virtual no Linux usando Python3
 ```
 python3 -m venv venv  
+```
+### Ativar o ambiente virtual já criado no Linux
+```
 source venv/bin/activate  
 ```
-Depois siga o passo "Instalar o pdf2image".  
-
-## Criar ambiente virtual no Windows com Python3
+### Instalar a biblioteca pdf2image no ambiente virtual
 ```
-python3 -m venv venv  
+pip3 install pdf2image
+```
+
+## NO WINDOWS
+### Criar ambiente virtual no Windows usando Python
+```
+python -m venv venv  
+```
+### Ativar o ambiente cirtual já criado no Windows
+```
 venv\Scripts\activate
 ```
-Adicione os binários do poppler às variáveis do PATH.  
-Veja o passo "Adicionar os binários do poppler às variáveis de ambiente do Windows".  
-Depois siga o passo "Instalar o pdf2image".  
-
-## Instalar o pdf2image (tanto faz Linux ou Windows)
+### Instalar a biblioteca pdf2image no ambiente virtual
 ```
-pip3 install pdf2image  
+pip3 install pdf2image
 ```
-
-## Adicionar os binários do poppler às variáveis de ambiente do Windows
-(https://github.com/oschwartz10612/poppler-windows/releases/)  
+### Adicionar os binários do poppler às variáveis do PATH.  
+Acesse (https://github.com/oschwartz10612/poppler-windows/releases/)  
 Procure pelo arquivo Release-26.02.0-0.zip e baixe  
 Extraia a pasta  
 Entre em poppler-26.02.0 > Library > bin  

@@ -6,7 +6,7 @@ Atualização: 03/06/2026
 
 OBS1: puxe a imagem "colunas_concatenadas_verticalmente.png" do passo 6 para essa pasta do passo 7
 OBS2: puxe a pasta "inteiras" do passo 5 para essa pasta do passo 7
-OBS3: atualizar as linhas 127 a 133. Compensa rodar esse código uma vez para as questões concatenadas, depois para as questões de cada página inteira
+OBS3: atualize as linhas 127 a 133. Compensa rodar esse código uma vez para as questões concatenadas, depois para cada página inteira
 OBS4: se você fizer esse código com um caderno de cor diferente, precisa usar o GIMP para descobrir a cor RGB exata das faixas que dividem as questões, e então alterar a variavel da linha 136
 """
 

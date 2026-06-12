@@ -1,18 +1,18 @@
 """
-Propósito: recortar excessos inferiores que possam ter ficado nas imagens, usando a borda azul como referência
+Propósito: várias questões tem um rascunhozinho abaixo da questão. O objetivo deste código é encontrar esses rascunhos e recortá-los.
 Autor: Alexandre Nassar de Peder
 Criação: 02/10/2025
 Atualização: 03/06/2026
 
 OBS1: puxe a pasta "questoes" do passo anteriores para este passo 11
-OBS2: atualize a linha 141 e 142
-OBS3: se estiver usando um caderno de outra cor, atualize a linha 143 com o RGB da cor da borda do seu caderno
+OBS2: neste caderno, o padrão é uma faixa azul de 4 pixels, seguido de uma faixa branca de 4 pixels, seguida de uma faixa azul de 4 pixels
+OBS3: O código está preparado para encontrar esse padrão de baixo para cima, e recortar a imagem acima dessa borda completa.
 """
 from PIL import Image
 import os
 import shutil
 
-def encontrar_borda_inferior(imagem, cor_alvo=(64, 193, 243), tolerancia=15):
+def encontrar_borda_inferior(imagem, cor_alvo=(64, 193, 243), tolerancia=15):d
     """
     Encontra a borda azul descrita (4px azul, 4px branco, 4px azul) de baixo para cima
     Retorna a posição Y onde deve ser feito o corte (acima da borda) ou None se não encontrar
