@@ -16,7 +16,10 @@ pdf2image
 
 # Antes de executar o código: criar ambiente virtual e instalar a biblioteca pdf2image
 ## NO LINUX
-==> Você pode simplesmente executar o arquivo ```requirements-linux.sh``` executando o comando ```. requirements-linux.sh```  
+==> Você pode simplesmente executar o arquivo ```requirements-linux.sh``` executando o comando:  
+```
+. requirements-linux.sh
+```
 
 Ou, sinta-se à vontade para seguir os passos:  
 
@@ -34,7 +37,10 @@ pip3 install pdf2image
 ```
 
 ## NO WINDOWS
-==> Você pode simplesmente executar o arquivo ```requirements-windows.bat``` executando o comando ```.\requirements-bat.bat```  
+==> Você pode simplesmente executar o arquivo ```requirements-windows.bat``` executando o comando:  
+```
+.\requirements-bat.bat
+```
 
 Ou, sinta-se à vontade para seguir os passos:  
 
