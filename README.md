@@ -14,49 +14,20 @@ Linux Mint 22.1 ou Windows 11
 Python 3  
 pdf2image  
 
-# Antes de executar o código: criar ambiente virtual e instalar a biblioteca pdf2image
+# Antes de executar o código: configurar seu computador com ambiente virtual e instalação da biblioteca pdf2image
 ## NO LINUX
 ==> Você pode simplesmente executar o arquivo ```requirements-linux.sh``` executando o comando:  
 ```
 . requirements-linux.sh
 ```
 
-Ou, sinta-se à vontade para seguir os passos:  
-
-### Criar ambiente virtual no Linux usando Python3
-```
-python3 -m venv venv  
-```
-### Ativar o ambiente virtual já criado no Linux
-```
-source venv/bin/activate  
-```
-### Instalar a biblioteca pdf2image no ambiente virtual
-```
-pip3 install pdf2image
-```
-
 ## NO WINDOWS
 ==> Você pode simplesmente executar o arquivo ```requirements-windows.bat``` executando o comando:  
 ```
-.\requirements-bat.bat
+.\requirements-windows.bat
 ```
 
-Ou, sinta-se à vontade para seguir os passos:  
-
-### Criar ambiente virtual no Windows usando Python
-```
-python -m venv venv  
-```
-### Ativar o ambiente cirtual já criado no Windows
-```
-venv\Scripts\activate
-```
-### Instalar a biblioteca pdf2image no ambiente virtual
-```
-pip3 install pdf2image
-```
-### Adicionar os binários do poppler às variáveis do PATH.  
+### Ainda assim no Windows, adicionar os binários do poppler às variáveis do PATH.  
 Acesse (https://github.com/oschwartz10612/poppler-windows/releases/)  
 Procure pelo arquivo Release-26.02.0-0.zip e baixe  
 Extraia a pasta  
