@@ -16,6 +16,10 @@ pdf2image
 
 # Antes de executar o código: criar ambiente virtual e instalar a biblioteca pdf2image
 ## NO LINUX
+
+==> Você pode simplesmente executar o arquivo ```requirements-linux.sh```executando ```. requirements-linux.sh```  
+Ou, sinta-se à vontade para seguir os passos:  
+
 ### Criar ambiente virtual no Linux usando Python3
 ```
 python3 -m venv venv  
