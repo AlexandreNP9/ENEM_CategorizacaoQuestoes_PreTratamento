@@ -1,4 +1,19 @@
-# ENEM_CategorizacaoQuestoes_PreTratamento
+Olá, seja bem-vindo(a) ao meu repositório!
+
+Esse repositório tem várias branches.  
+Aqui na ```main``` tem apenas essa instrução  
+Nas outras branches tem os códigos.
+
+# Fase 1 de 5
+Este repositório é sobre o tratamento das imagens dos cadernos de questões do ENEM.  
+Faz parte de um projeto de categorização das questões do ENEM de acordo com a matriz de referência:  
+1) Tratamento das imagens das questões  
+2) Extração do conteúdo usando OCR  
+3) Análise das questões usando LLM com o conteúdo das questões, gabarito e matriz de referência  
+4) Alimentação de um banco de dados  
+5) Interface
+
+
 Projeto para categorização das questões do ENEM de acordo com a matriz de referência do exame.  
 Este repositório faz parte de um projeto com subsistemas distribuído.  
 
@@ -7,6 +22,7 @@ https://github.com/AlexandreNP9/ENEM_CategorizacaoQuestoes_GERAL
 
 # Objetivos deste repositório
 Transformar o caderno 1 azul de 2024 em imagens recortadas. Uma questão por imagem.  
+É um treino para fazer em outros cadernos.  
 
 # Especifidades técnicas
 ## Programas e bibliotecas utilziadas
@@ -28,6 +44,14 @@ source venv/bin/activate
 ```
 pip3 install pdf2image
 ```
+### Abrir entrar no diretório do seu repositório
+Entre no diretório do seu repositório.  
+Se você ainda não clocou, tem que clonar do GitHub.  
+
+### Configure seu user.email e user.name
+Dê um ```git config --list``` para ver seu user.email e user.name  
+Você também pode conferir se está realmente no seu repositório analisando a variável ```remote.origin.url```
+
 
 ## NO WINDOWS
 ### Criar ambiente virtual no Windows usando Python
@@ -52,6 +76,14 @@ Abra as variáveis de ambiente do Windows:
 - Menu do Windows > procure por Editar as variáveis de ambiente > Variáveis de Ambiente > abra as variáveis do PATH  
 Adicione os binários do poppler às variáveis de ambiente do PATH  
 - Novo > Cole o caminho dos binários do poppler que você copiou > Ok  
+
+### Abrir entrar no diretório do seu repositório
+Entre no diretório do seu repositório.  
+Se você ainda não clocou, tem que clonar do GitHub.  
+
+### Configure seu user.email e user.name
+Dê um ```git config --list``` para ver seu user.email e user.name  
+Você também pode conferir se está realmente no seu repositório analisando a variável ```remote.origin.url```
 
 ## Executar os códigos nas pastas
 Cada pasta tem códigos ou instruções específicas. Siga os passos com atenção.
