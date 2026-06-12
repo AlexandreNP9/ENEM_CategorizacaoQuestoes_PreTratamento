@@ -38,9 +38,9 @@ Abra as variáveis de ambiente do Windows:
 Adicione os binários do poppler às variáveis de ambiente do PATH  
 - Novo > Cole o caminho dos binários do poppler que você copiou > Ok  
 
-## EXECUTAR OS CÓDIGOS NAS PASTAS
+# EXECUTAR OS CÓDIGOS NAS PASTAS
 Cada pasta tem códigos ou instruções específicas. Siga os passos com atenção.
 
-## O QUE FAZER DEPOIS?
+# O QUE FAZER DEPOIS?
 Esse repositório serve de base para os passos para tratar o caderno 1 azul de 2024.  
 Você pode seguir a mesma estrutura com os outros cadernos do ENEM, inclusive de outras cores.  
