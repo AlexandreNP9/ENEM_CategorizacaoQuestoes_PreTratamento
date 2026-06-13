@@ -22,9 +22,9 @@ pdf2image
 ```
 
 ## NO WINDOWS
-==> Você pode simplesmente executar o arquivo ```requirements-windows.bat``` executando o comando:  
+==> Você pode simplesmente executar o arquivo ```windows-requirements.bat``` executando o comando:  
 ```
-.\requirements-windows.bat
+.\windows-requirements.bat
 ```
 
 ### Ainda assim no Windows, adicionar os binários do poppler às variáveis do PATH.  
