@@ -27,11 +27,13 @@ pdf2image
 .\windows-requirements.bat
 ```
 
-### Ainda assim no Windows, adicionar os binários do poppler às variáveis do PATH.  
-Acesse (https://github.com/oschwartz10612/poppler-windows/releases/)  
-Procure pelo arquivo Release-26.02.0-0.zip e baixe  
+### Ainda assim no Windows, precisa adicionar os binários do poppler às variáveis do PATH.  
+Se já fez uma vez, deve funcionar. Mas por via das dúvidas:  
+
+Acesse o site (https://github.com/oschwartz10612/poppler-windows/releases/)  
+Procure pelo arquivo ```Release-26.02.0-0.zip``` e baixe  
 Extraia a pasta  
-Entre em poppler-26.02.0 > Library > bin  
+Entre em ```poppler-26.02.0``` > ```Library``` > ```bin```  
 Copie o endereço  
 Abra as variáveis de ambiente do Windows:  
 - Menu do Windows > procure por Editar as variáveis de ambiente > Variáveis de Ambiente > abra as variáveis do PATH  
