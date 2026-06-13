@@ -1,30 +1,34 @@
 @echo off
 echo. && ^
-echo Oi, aqui fala o professor Alexandre && ^
-echo nao se sinta sozinho, eu estou no computador com vc && ^
+echo Oi, aqui fala o professor Alexandre pelo Windows && ^
+echo Nao se sinta sozinho(a), eu estou no computador com voce && ^
 echo. && ^
 echo. && ^
 echo vou CRIAR o ambiente virtual na pasta de nivel anterior && ^
-echo. && ^
 python -m venv ..\venv && ^
-echo. && ^
 echo PRONTO! && ^
-echo vou ATIVAR o ambiente virtual && ^
 echo. && ^
+echo. && ^
+echo agora vou ATIVAR o ambiente virtual && ^
 call ..\venv\Scripts\activate.bat && ^
-echo. && ^
 echo PRONTO! && ^
-echo vou INSTALAR a biblioteca pdf2image && ^
+echo. && ^
+echo. && ^
+echo finalmente, eu vou INSTALAR a biblioteca pdf2image && ^
 echo. && ^
 pip3 install pdf2image && ^
 echo. && ^
 echo PRONTO! && ^
+echo. && ^
 echo agora vc pode codar :) boa sorte && ^
 echo. && ^
 echo. && ^
 echo. && ^
-echo lembre-se de conferir as credenciais no Gerenciados de Credenciais && ^
-echo e dar o git config --list para conferir o user.email e user.name && ^
+echo lembre-se de dar o git config --list para conferir se vc esta realmente no seu repositorio && ^
+echo e conferir o user.email e user.name && ^
+echo. && ^
+echo. && ^
+echo lembre-se tambem de conferir as credenciais no Gerenciados de Credenciais && ^
 echo. && ^
 echo. && ^
 echo.

@@ -16,9 +16,9 @@ pdf2image
 
 # Antes de executar o código: configurar seu computador com ambiente virtual e instalação da biblioteca pdf2image
 ## NO LINUX
-==> Você pode simplesmente executar o arquivo ```requirements-linux.sh``` executando o comando:  
+==> Você pode simplesmente executar o arquivo ```linux-requirements.sh``` executando o comando:  
 ```
-. requirements-linux.sh
+. linux-requirements.sh
 ```
 
 ## NO WINDOWS
