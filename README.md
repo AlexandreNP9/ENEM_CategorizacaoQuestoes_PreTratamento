@@ -19,7 +19,7 @@ Repositório Geral:
 https://github.com/AlexandreNP9/ENEM_CategorizacaoQuestoes_GERAL
 
 # Execute os códigos nas pastas
-Cada pasta tem códigos ou instruções específicas. Siga os passos com atenção.  
+Cada pasta tem códigos e instruções específicas. Copie para o seu repositório e siga os passos com atenção.  
 
 # O que fazer agora?
 Copie a estrutura de passos e códigos aqui das branches para você fazer no seu repositório.  
