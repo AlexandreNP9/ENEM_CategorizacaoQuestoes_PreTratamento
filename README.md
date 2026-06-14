@@ -41,7 +41,7 @@ Adicione os binários do poppler às variáveis de ambiente do PATH
 - Novo > Cole o caminho dos binários do poppler que você copiou > Ok  
 
 # EXECUTAR OS CÓDIGOS NAS PASTAS
-Cada pasta tem códigos ou instruções específicas. Copie para o seu repositório e siga os passos com atenção.  
+Cada pasta tem códigos e instruções específicas. Copie para o seu repositório e siga os passos com atenção.  
 
 # O QUE FAZER AGORA?
 Copie a estrutura de passos e códigos desta branch para você fazer no seu repositório.  
