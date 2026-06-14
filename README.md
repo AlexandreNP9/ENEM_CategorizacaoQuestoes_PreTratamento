@@ -16,13 +16,13 @@ pdf2image
 
 # Antes de executar o código: configurar seu computador com ambiente virtual e instalação da biblioteca pdf2image
 ## NO LINUX
-==> Copie o arquivo ```linux-requirements.sh``` no seu repositório e execute-o com o comando:  
+==> Copie o arquivo ```linux-requirements.sh``` para o seu repositório e execute-o com o comando:  
 ```
 . linux-requirements.sh
 ```
 
 ## NO WINDOWS
-==> Copie o arquivo ```windows-requirements.bat``` no seu repositório e execute-o com o comando:  
+==> Copie o arquivo ```windows-requirements.bat``` para o seu repositório e execute-o com o comando:  
 ```
 .\windows-requirements.bat
 ```
