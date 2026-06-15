@@ -31,4 +31,7 @@ echo. && ^
 echo lembre-se tambem de conferir as credenciais no Gerenciados de Credenciais && ^
 echo. && ^
 echo. && ^
+echo confira os binários do poppler no PATH &&
+echo. && ^
+echo. && ^
 echo.
