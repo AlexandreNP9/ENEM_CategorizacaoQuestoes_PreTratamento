@@ -5,11 +5,14 @@ Criação: 02/10/2025
 Atualização: 03/06/2026
 
 OBS1: puxe a imagem "colunas_concatenadas_verticalmente.png" do passo 6 para essa pasta do passo 7, e as imagens de páginas inteiras da pasta "inteiras" do passo 5 para essa pasta do passo 7
-OBS2: esse código vai percorrer a imagem de cima pra baixo, sempre analisando o pixel do meio da imagem, para encontrar a faixa que divide as questões. Quando encontrar a faixa, ele vai cortar a imagem ANTES da faixa, e depois pular a faixa para continuar procurando a próxima questão
-OBS3: primeiro você vai rodar esse código para cortar a imagem de colunas concatenadas, depois você vai rodar para cada página inteira
-OBS4: atualize as linhas 127 e 128 para recortar a imagem de colunas concatenadas, depois atualize para recortar cada página inteira. Atualize o nome da pasta de saída também
-OBS5: atualize a linha 134 para a cor RGB 0a100 exata da faixa que divide as questões. Use o GIMP para descobrir a cor
-OBS6: atualize a linha 27 com a altura da faixa. Use o GIMP para medir a altura da faixa em pixels
+
+OBS2: este código foi originalmente preparado para percorrer cada pixel de cima para baixo, analizando o penúltimo pixel da direita, procurando por um padrão visual vertical de 10 pixels RGB 0-255 (64, 193, 243), seguido de 7 pixels RGB 0-255 (179, 230, 250), 4 px  RGB 0-255 (64, 193, 243) e 8 px RGB 0-255 (179, 230, 250). Quando encontrava esse padrão, cortava-se 13 pixels acima de começar o padrão.
+
+OBS3: você vai precisar identificar o padrão visual que indica o começo da questão na sua prova usando o GIMP. Pode usar IA para mudar minimamente o código a fim de cortar sua imagem seguindo o padrão visual vertical da sua prova.
+
+OBS4: você vai rodar esse código para cortar a imagem de colunas concatenadas, depois você vai rodar para cada página inteira
+
+OBS5: atualize as linhas 130 e 134 para recortar a imagem de colunas concatenadas, depois atualize para recortar cada página inteira. Atualize o nome da pasta de saída também
 """
 
 from PIL import Image
