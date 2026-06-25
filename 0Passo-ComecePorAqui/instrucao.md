@@ -1,9 +1,14 @@
-Todas as instruções documentadas no README do repositório  
+Configure seu computador para programar. Eu fiz um script para automatizar o criar e ativar o ambiente virtual, instalar a biblioteca pdf2image e conferir o seu repositório.
 
-Tenha certeza de que você já configurou seu ambiente, ao:  
-1 - criar ambiente virtual  
-2 - ativar ambiente virtual  
-3 - instalar biblioteca pdf2image  
-3.1 - se usando Windows, adicionar os binários do poppler ao PATH  
-4 - clonar seu repositóro (para copiar os códigos deste repositório)  
-5 - configurou seu user.email e user.name do git  
+
+Se você está usando Linux, rode o arquivo ```linux-requirements.sh```.
+O comando para rodar o arquivo é ```. linux-requirements.sh```
+
+
+Se você está usando Windows, rode o arquivo ```windows-requirements.sh```.
+Para executar o arquivo no Windows, é só chamar o arquivo no terminal com ```windows-requirements.sh```
+
+Se você está usando Windows, adicionar os binários do poppler ao PATH  
+
+
+LEIA o que escrever no terminal quando rodar o arquivo!!!!!!!!!!
