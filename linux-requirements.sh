@@ -19,12 +19,13 @@ pip3 install pdf2image &&
 echo
 echo "PRONTO!"
 echo
-echo "agora vc pode codar :) boa sorte"
+echo "vou dar um git config --list para vc conferir seu user.email, user.name, se está no seu repositório mesmo e o credential.helper
+echo
+git config --list
 echo
 echo
-echo
-echo "lembre-se de dar o git config --list para conferir se vc esta realmente no seu repositorio"
-echo "e conferir o user.email e user.name"
+echo "CONFIRA se está tudo certo (user.email, user.name, remote.origin.url e o credential.helper"
+echo "se estiver tudo certo, pode codar. Boa sorte!"
 echo
 echo
 echo
