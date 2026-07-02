@@ -22,8 +22,8 @@ echo
 echo
 echo "vou dar um git config --list para vc conferir:"
 echo "- seu user.email" 
-echo "- user.name"
-echo "- se está no seu repositório mesmo pela variável remote.origin.url"
+echo "- seu user.name"
+echo "- se está no seu repositório mesmo conferindo a variável remote.origin.url"
 echo "- e se o credential.helper. Essa variável serve para não precisar ficar colocando usuário e token toda hora que for dar push"
 echo
 git config --list
@@ -41,7 +41,7 @@ echo "se precisar arrumar o user.name, use o comando:"
 echo "git config --global user.name 'Seu Nome'"
 echo
 echo
-echo "confira se o remote.origin.url está mostrando o link do seu repositório"
+echo "confira se o remote.origin.url está mostrando o link do SEU repositório"
 echo
 echo
 echo "confira se o credential.helper está mostrando 'store'. Se não estiver, e quiser ativar, use o comando:"
