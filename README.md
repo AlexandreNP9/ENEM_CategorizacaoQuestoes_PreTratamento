@@ -4,10 +4,16 @@ Olá, seja bem-vindo(a) ao meu repositório!
 # Aqui na ```main``` tem apenas esse README.
 # Nas outras branches tem os códigos.
 
-# Fase 1 de 5
+# Neste repositório
 Este repositório é para aprender a tratar as imagens dos cadernos de questões do ENEM.  
-O objetivo final4 é ter uma questão por imagem, com o devido nome.  
-  
+O objetivo desta fase é ter uma questão por imagem, com o devido nome.  
+
+## Alguns problemas para você considerar:  
+Tenha em mente que as imagens que você preparar aqui, vai usar em fases futuras desse projeto de Categorização das Questões do ENEM.  
+Tem situações em que duas questões ou mais se baseiam no mesmo texto base. Será que é interessante manter o texto base em cada uma das perguntas?  
+Adote uma postura de dono do negócio, faça de forma excelente!
+
+# Fase 1 de 5  
 Esta fase faz parte de um projeto de categorização das questões do ENEM de acordo com a matriz de referência, composto pelas seguintes fases:  
 1) Tratamento das imagens das questões  
 2) Extração do conteúdo usando OCR  
@@ -19,7 +25,7 @@ Repositório Geral:
 https://github.com/AlexandreNP9/ENEM_CategorizacaoQuestoes_GERAL
 
 # Execute os códigos nas pastas
-Cada pasta tem códigos e instruções específicas. Copie para o seu repositório e siga os passos com atenção.  
+Nas branches, cada pasta tem códigos e instruções específicas. Copie para o seu repositório e siga os passos com atenção.  
 
 # O que fazer agora?
 Copie a estrutura de passos e códigos aqui das branches para você fazer no seu repositório.  
