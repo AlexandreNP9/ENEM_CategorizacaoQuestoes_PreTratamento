@@ -5,9 +5,23 @@ Criação: 02/10/2025
 Atualização: 03/06/2026
 
 OBS1: puxe todas as pastas do passo 8 para este passo 9
-OBS2: você vai atualizar o nome das imagens para seguir um padrão, mas você vai fazer isso pasta por pasta
-OBS3: atualize a linha 15 com o nome da pasta das questões que você vai arrumar
-OBS4: ENTENDA muito bem o for da linha 24!!!!!!!!!!!
+
+OBS2: você vai atualizar o nome das imagens para seguir um padrão, mas você vai fazer isso pasta por pasta.
+
+OBS3: você pode observar que você separou as questões por intervalos ininterruptos, crescendo de 1 em 1. Isso é importante porque as páginas inteiras foram tratadas de maneira diferente do que as páginas que contém colunas. Por isso teve um gap no meio das questões concatenadas das colunas.
+
+OBS4: no passo 7, você recortou as partes da imagem, por isso as imagens se chama parte_AlgumaCoisa.png. E no passo 8 você separou as imagens em pastas, cada pasta com um intervalo ininterrupto de questões.
+
+OBS5: o objetivo deste passo é renomear as imagens de cada pasta para seguir um padrão.
+
+OBS6: dentro de cada pasta, você tem as partes recortadas em sequência, com o nome parte_AlgumaCoisa.png, crescendo de 1 em 1. Você pode observar também que a imagem parte_AlgumaCoisa é a questao-OutraCoisa. Desse modo, o nome do arquivo parte_AlgumaCoisa.png vai virar questao-OutraCoisa.png, tudo crescendo de 1 em 1.
+
+OBS7: para cada vez que executar esse código, faça:
+- atualize a linha 28 com o nome da pasta que você vai arrumar
+- atualize o for da linha 39 com o número da primeira imagem "parte_AlgumaCoisa.png" até o número da última imagem "parte_AlgumaCoisa.png" mais 1
+- escolha qual padrão novo de nome você vai usar nas linhas 45 a 47. Deixe apenas uma linha descomentada de cada vez. Se são as questões de ingles, use o padrão com sufixo de ingles; se são questões de espanhol, use o padrão com sufixo de espanhol; se são as outras questões, use o padrão sem sufixo de idioma.
+- dentro do padrão novo de nome, faça a conta para transformar o número do antigo no número do novo. Você pode ler o comentário antes dos padrões para saber qual conta fazer
+- execute o código
 """
 import os
 

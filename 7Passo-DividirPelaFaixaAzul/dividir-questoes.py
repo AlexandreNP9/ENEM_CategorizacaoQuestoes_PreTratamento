@@ -5,9 +5,18 @@ Criação: 02/10/2025
 Atualização: 03/06/2026
 
 OBS1: puxe a imagem "colunas_concatenadas_verticalmente.png" do passo 6 para essa pasta do passo 7
+
 OBS2: puxe a pasta "inteiras" do passo 5 para essa pasta do passo 7
-OBS3: atualize as linhas 127 a 133. Compensa rodar esse código uma vez para as questões concatenadas, depois para cada página inteira
-OBS4: se você fizer esse código com um caderno de cor diferente, precisa usar o GIMP para descobrir a cor RGB exata das faixas que dividem as questões, e então alterar a variavel da linha 136
+
+OBS3: leia com atenção as linhas 127 a 133. Você vai rodar uma vez para as questões concatenadas, depois uma vez para cada página inteira
+
+OBS4: este código vai criar uma pasta de saída chamada "questoes_colunas" para as questões concatenadas, e pastas chamadas "pagina_15" e "pagina_28" para as páginas inteiras, vai percorrer cada imagem analisando o pixel central de cima a baixo, e vai cortar as imagens ANTES das faixas azuis e salvar as imagens cortadas nessas pastas criadas
+
+OBS5: execute o código com as linhas 132 e 136 descomentadas, as linhas 134 e 135 comentadas, e as linhas 137 e 138 comentadas. Isso vai cortar as questões concatenadas.
+
+OBS6: comente as linhas 132 e 136, descomente as linhas 134 e 137. Execute o código novamente. Isso vai cortar a página inteira 15.
+
+OBS7: comente as linhas 132 e 134, descomente as linhas 136 e 138. Execute o código novamente. Isso vai cortar a página inteira 28.
 """
 
 from PIL import Image
@@ -124,13 +133,13 @@ def dividir_imagem_por_faixas(caminho_imagem, pasta_saida, cor_alvo=(64, 193, 24
 # Exemplo de uso
 if __name__ == "__main__":
     # Configurações
-    #caminho_imagem = "colunas_concatenadas_verticalmente.png"  # Substitua pelo caminho da sua imagem
+    caminho_imagem = "colunas_concatenadas_verticalmente.png"  # Substitua pelo caminho da sua imagem
     #caminho_imagem = "./inteiras/pagina_enem_15.png"  # Substitua pelo caminho da sua imagem
-    caminho_imagem = "./inteiras/pagina_enem_28.png"  # Substitua pelo caminho da sua imagem
+    #caminho_imagem = "./inteiras/pagina_enem_28.png"  # Substitua pelo caminho da sua imagem
     
-    #pasta_saida = "questoes_colunas" # Substitua pelo nome da pasta de saída desejada (questoes_colunas, pagina_15, pagina_28)
+    pasta_saida = "questoes_colunas" # Substitua pelo nome da pasta de saída desejada (questoes_colunas, pagina_15, pagina_28)
     #pasta_saida = "pagina_15" # Substitua pelo nome da pasta de saída desejada (questoes_colunas, pagina_15, pagina_28)
-    pasta_saida = "pagina_28" # Substitua pelo nome da pasta de saída desejada (questoes_colunas, pagina_15, pagina_28)
+    #pasta_saida = "pagina_28" # Substitua pelo nome da pasta de saída desejada (questoes_colunas, pagina_15, pagina_28)
     
     # Converte a cor do GIMP (25.1, 75.7, 95.3) para RGB (0-255)
     cor_azul = converter_cor_gimp_para_rgb(25.1, 75.7, 95.3)

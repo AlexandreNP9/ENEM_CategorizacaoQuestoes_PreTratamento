@@ -5,9 +5,16 @@ Criação: 02/10/2025
 Atualização: 03/06/2026
 
 OBS1: puxe a pasta "sem-bordas-externas" do passo 2 para essa pasta do passo 3
-OBS2: nesse caderno de 2024, as páginas 15 e 28 são páginas inteiras. Crie uma pasta chamada "inteiras" e coloque só essas duas páginas lá
-OBS3: ao cortar ao meio, vai gerar uma bordinha interna.
 
+OBS2: observe que existe páginas inteiras, que não faz sentido ser cortadas ao meio, e páginas que são colunas, que faz sentido ser cortadas ao meio. 
+
+OBS3: nesse caderno de 2024, as páginas 15 e 28 são páginas inteiras. Crie uma pasta chamada "inteiras" e mova só essas duas páginas para lá.
+
+OBS4: este código vai criar uma pasta de saída chamada "divididas-com-bordas-do-meio", vai cortar ao meio as páginas que são colunas e salvar as imagens cortadas nessa pasta criada
+
+OBS5: execute o código
+
+OBS3: ao cortar ao meio, vai gerar uma bordinha interna. As colunas do lado esquedo vai ter uma bordinha do lado direito e as colunas do lado direito vai ter uma bordinha do lado esquerdo. Essas bordinhas serão removidas no próximo passo.
 """
 
 from PIL import Image

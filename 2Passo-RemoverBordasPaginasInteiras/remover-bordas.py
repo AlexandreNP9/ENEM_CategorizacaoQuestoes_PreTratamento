@@ -5,7 +5,10 @@ Criação: 02/10/2025
 Atualização: 03/06/2026
 
 OBS1: puxe a pasta "imagens-convertidas" do passo 1 para essa pasta do passo 2
-OBS2: tive que contar pixels usando o GIMP para saber quanto pixels cortar de borda
+
+OBS2: este código vai criar uma pasta de saída chamada "sem-bordas-externas", vai cortar as margens externas de cada página e salvar as imagens cortadas nessa pasta criada
+
+OBS3: execute o código.
 """
 
 from PIL import Image

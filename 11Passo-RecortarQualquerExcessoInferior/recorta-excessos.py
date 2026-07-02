@@ -4,9 +4,11 @@ Autor: Alexandre Nassar de Peder
 Criação: 02/10/2025
 Atualização: 03/06/2026
 
-OBS1: puxe a pasta "questoes" do passo anteriores para este passo 11
-OBS2: neste caderno, o padrão é uma faixa azul de 4 pixels, seguido de uma faixa branca de 4 pixels, seguida de uma faixa azul de 4 pixels
-OBS3: O código está preparado para encontrar esse padrão de baixo para cima, e recortar a imagem acima dessa borda completa.
+OBS1: puxe a pasta "questoes" do passo 10 para este passo 11
+
+OBS2: este código vai criar uma pasta de saída chamada "finalizadas", vai percorrer o pixel central de baixo para cima procurando pelo padrão visual, e vai recortar as imagens que tem rascunho analisando, salvando as imagens recortadas nessa pasta criada. As imagens que não tiverem rascunho, serão copiadas para a pasta de saída sem alterações.
+
+OBS3: execute o código
 """
 from PIL import Image
 import os

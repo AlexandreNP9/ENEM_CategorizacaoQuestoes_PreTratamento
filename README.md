@@ -6,13 +6,7 @@ Repositório Geral:
 https://github.com/AlexandreNP9/ENEM_CategorizacaoQuestoes_GERAL
 
 # Objetivos deste repositório
-Transformar o caderno 1 azul de 2024 em imagens recortadas. Uma questão por imagem.  
-
-# Especifidades técnicas
-## Programas e bibliotecas utilziadas
-Linux Mint 22.1 ou Windows 11  
-Python 3  
-pdf2image  
+Aprender a transformar o caderno 2024-dia1-caderno1-azul-aplicacaoRegular em imagens recortadas, uma questão por imagem, para saber tratar futuramente o caderno que lhe for designado.  
 
 # Antes de executar o código: configurar seu computador com ambiente virtual e instalação da biblioteca pdf2image
 ## NO LINUX
@@ -45,5 +39,10 @@ Cada pasta tem códigos e instruções específicas. Copie para o seu repositór
 
 # O QUE FAZER AGORA?
 Copie a estrutura de passos e códigos desta branch para você fazer no seu repositório.  
-Esta branch serve para treinar os passos com o tratamento do caderno 1 do 1o dia, cor azul, aplicação regular de 2024.  
-Depois, faça da prova que lhe foi designada no Classroom usando os códigos da branch ```generico-para-todas-provas```.
+Esta branch serve para treinar os passos com o tratamento do caderno 2024-dia1-caderno1-azul-aplicacaoRegular.  
+Faça esse caderno primeiro, para aprender.  
+Futuramente, faça da prova que lhe foi designada no Classroom usando os códigos da branch ```generico-para-todas-provas```.
+
+# UMA DICA
+Nos códigos, você tem que ler as instruções.  
+Use o comando ```Alt + Z``` para quebrar as linhas.

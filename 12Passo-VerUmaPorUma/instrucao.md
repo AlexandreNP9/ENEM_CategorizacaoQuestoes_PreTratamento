@@ -10,7 +10,7 @@ Isso significa, avaliar se:
 
 Caso necessário, RECORTE MANUALMENTE USANDO ALGUM PROGRAMA DE RECORTE.  Pode usar o GIMP  
 
-No caso do caderno 1 azul de 2024, dê atenção especial para as imagens:  
+No caso do caderno 2024-dia1-caderno1-azul-aplicacaoRegular, dê atenção especial para as imagens:  
 - questao-5-espanhol.png  
 - questao-5-ingles.png  
 - questao-15.png
