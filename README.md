@@ -15,7 +15,8 @@ Adote uma postura de dono do negócio, faça de forma excelente!
 
 # Especificidades técnicas
 Linux ou Windows  
-Precisa ter instalado o git e o python
+Precisa ter instalado o git e o python  
+Vai usar também o GIMP (Programa de Manipulação de Imagem do GNU)
 
 # Fase 1 de 5  
 Esta fase faz parte de um projeto de categorização das questões do ENEM de acordo com a matriz de referência, composto pelas seguintes fases:  
