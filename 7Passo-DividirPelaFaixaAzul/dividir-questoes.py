@@ -12,11 +12,11 @@ OBS3: leia com atenção as linhas 136 a 142. Você vai rodar uma vez para as qu
 
 OBS4: este código vai criar uma pasta de saída chamada "questoes_colunas" para as questões concatenadas, e pastas chamadas "pagina_15" e "pagina_28" para as páginas inteiras, vai percorrer cada imagem analisando o pixel central de cima a baixo, e vai cortar as imagens ANTES das faixas azuis e salvar as imagens cortadas nessas pastas criadas
 
-OBS5: execute o código com as linhas 132 e 136 descomentadas, as linhas 134 e 135 comentadas, e as linhas 137 e 138 comentadas. Isso vai cortar as questões concatenadas.
+OBS5: execute o código com as linhas 136 e 140 descomentadas, as linhas 137 e 141 comentadas, e as linhas 138 e 142 comentadas. Isso vai cortar as questões concatenadas.
 
-OBS6: comente as linhas 132 e 136, descomente as linhas 134 e 137. Execute o código novamente. Isso vai cortar a página inteira 15.
+OBS6: comente as linhas 136 e 140, descomente as linhas 137 e 141. Execute o código novamente. Isso vai cortar a página inteira 15.
 
-OBS7: comente as linhas 132 e 134, descomente as linhas 136 e 138. Execute o código novamente. Isso vai cortar a página inteira 28.
+OBS7: comente as linhas 136 e 141, descomente as linhas 137 e 142. Execute o código novamente. Isso vai cortar a página inteira 28.
 """
 
 from PIL import Image
