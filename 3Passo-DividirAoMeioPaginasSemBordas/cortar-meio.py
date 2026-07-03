@@ -14,7 +14,7 @@ OBS4: este código vai criar uma pasta de saída chamada "divididas-com-bordas-d
 
 OBS5: execute o código
 
-OBS3: ao cortar ao meio, vai gerar uma bordinha interna. As colunas do lado esquedo vai ter uma bordinha do lado direito e as colunas do lado direito vai ter uma bordinha do lado esquerdo. Essas bordinhas serão removidas no próximo passo.
+OBS6: ao cortar ao meio, vai gerar uma bordinha interna. As colunas do lado esquedo vai ter uma bordinha do lado direito e as colunas do lado direito vai ter uma bordinha do lado esquerdo. Essas bordinhas serão removidas no próximo passo.
 """
 
 from PIL import Image
