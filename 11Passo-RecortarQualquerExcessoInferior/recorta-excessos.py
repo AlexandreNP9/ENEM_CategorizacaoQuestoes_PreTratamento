@@ -10,6 +10,7 @@ OBS2: este código vai criar uma pasta de saída chamada "finalizadas", vai perc
 
 OBS3: execute o código
 """
+
 from PIL import Image
 import os
 import shutil
