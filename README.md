@@ -13,6 +13,10 @@ Tenha em mente que as imagens que você preparar aqui, vai usar em fases futuras
 Tem situações em que duas questões ou mais se baseiam no mesmo texto base. Será que é interessante manter o texto base em cada uma das perguntas?  
 Adote uma postura de dono do negócio, faça de forma excelente!
 
+# Especificidades técnicas
+Linux ou Windows  
+Precisa ter instalado o git e o python
+
 # Fase 1 de 5  
 Esta fase faz parte de um projeto de categorização das questões do ENEM de acordo com a matriz de referência, composto pelas seguintes fases:  
 1) Tratamento das imagens das questões  
