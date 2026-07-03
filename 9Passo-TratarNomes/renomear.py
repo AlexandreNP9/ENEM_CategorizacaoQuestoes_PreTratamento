@@ -17,9 +17,9 @@ OBS5: o objetivo deste passo é renomear as imagens de cada pasta para seguir um
 OBS6: dentro de cada pasta, você tem as partes recortadas em sequência, com o nome parte_AlgumaCoisa.png, crescendo de 1 em 1. Você pode observar também que a imagem parte_AlgumaCoisa é a questao-OutraCoisa. Desse modo, o nome do arquivo parte_AlgumaCoisa.png vai virar questao-OutraCoisa.png, tudo crescendo de 1 em 1.
 
 OBS7: para cada vez que executar esse código, faça:
-- atualize a linha 28 com o nome da pasta que você vai arrumar
-- atualize o for da linha 39 com o número da primeira imagem "parte_AlgumaCoisa.png" até o número da última imagem "parte_AlgumaCoisa.png" mais 1
-- escolha qual padrão novo de nome você vai usar nas linhas 45 a 47. Deixe apenas uma linha descomentada de cada vez. Se são as questões de ingles, use o padrão com sufixo de ingles; se são questões de espanhol, use o padrão com sufixo de espanhol; se são as outras questões, use o padrão sem sufixo de idioma.
+- atualize a linha 29 com o nome da pasta que você vai arrumar
+- atualize o for da linha 40 com o número da primeira imagem "parte_AlgumaCoisa.png" até o número da última imagem "parte_AlgumaCoisa.png" mais 1
+- escolha qual padrão novo de nome você vai usar nas linhas 46 a 48. Deixe apenas uma linha descomentada de cada vez. Se são as questões de ingles, use o padrão com sufixo de ingles; se são questões de espanhol, use o padrão com sufixo de espanhol; se são as outras questões, use o padrão sem sufixo de idioma.
 - dentro do padrão novo de nome, faça a conta para transformar o número do antigo no número do novo. Você pode ler o comentário antes dos padrões para saber qual conta fazer
 - execute o código
 """
