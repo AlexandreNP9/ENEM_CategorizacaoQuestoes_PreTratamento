@@ -1,4 +1,4 @@
-# ENEM_CategorizacaoQuestoes_PreTratamento
+# ENEM_CategorizacaoQuestoes_TratamentoImagens
 Projeto para categorização das questões do ENEM de acordo com a matriz de referência do exame.  
 Este repositório faz parte de um projeto com subsistemas distribuído.  
 
