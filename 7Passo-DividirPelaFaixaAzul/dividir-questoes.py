@@ -8,7 +8,7 @@ OBS1: puxe a imagem "colunas_concatenadas_verticalmente.png" do passo 6 para ess
 
 OBS2: puxe a pasta "inteiras" do passo 5 para essa pasta do passo 7
 
-OBS3: leia com atenção as linhas 127 a 133. Você vai rodar uma vez para as questões concatenadas, depois uma vez para cada página inteira
+OBS3: leia com atenção as linhas 136 a 142. Você vai rodar uma vez para as questões concatenadas, depois uma vez para cada página inteira
 
 OBS4: este código vai criar uma pasta de saída chamada "questoes_colunas" para as questões concatenadas, e pastas chamadas "pagina_15" e "pagina_28" para as páginas inteiras, vai percorrer cada imagem analisando o pixel central de cima a baixo, e vai cortar as imagens ANTES das faixas azuis e salvar as imagens cortadas nessas pastas criadas
 
