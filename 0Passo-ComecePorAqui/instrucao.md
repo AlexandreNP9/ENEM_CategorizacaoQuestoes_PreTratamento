@@ -5,7 +5,7 @@ Eu fiz um script para automatizar a criação e ativação do ambiente virtual, 
 Se você está usando Linux, rode o arquivo ```linux-requirements.sh``` com o comando:  
 ```. linux-requirements.sh```
 
-Se você está usando Windows, rode o arquivo ```windows-requirements.sh```. É só chamado o arquivo e executar:
-```./windows-requirements.sh```
+Se você está usando Windows, rode o arquivo ```windows-requirements.bat```. É só chamar o arquivo e executar:
+```./windows-requirements.bat```
 
 LEIA o que escrever no terminal quando rodar o arquivo!!!!!!!!!!
