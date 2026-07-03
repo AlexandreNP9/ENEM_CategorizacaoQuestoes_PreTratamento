@@ -5,9 +5,16 @@ Criação: 02/10/2025
 Atualização: 03/06/2026
 
 OBS1: puxe a pasta "sem-bordas-externas" do passo 2 para esta pasta do passo 3
+
 OBS2: pode ter páginas inteiras e páginas com coluas. Crie uma pasta chamada "inteiras", retire as imagens inteiras e coloque-as nessa pasta
-OBS3: execute este código. Ao cortar as colunas ao meio, vai gerar uma bordinha interna
-OBS4: as imagens vão receber um novo nome, com o sufixo "_esquerda" ou "_direita" para indicar a coluna
+
+OBS3: observe também se as páginas do seu caderno mantém a mesma altura, tem cadernos que têm duas colunas mas não são exatamente cortadas na metade... se isso acontecer, você vai ter que tratar essas páginas de forma diferente
+
+OBS4: este código vai criar uma pasta de saída chamada "divididas-com-bordas-do-meio", vai cortar ao meio (ver linha 35) as páginas que são colunas e salvar as imagens cortadas nessa pasta criada
+
+OBS5: execute este código. Ao cortar as colunas ao meio, vai gerar uma bordinha interna
+
+OBS6: as imagens vão receber um novo nome, com o sufixo "_esquerda" ou "_direita" para indicar a coluna
 """
 
 from PIL import Image

@@ -5,12 +5,20 @@ Criação: 02/10/2025
 Atualização: 03/06/2026
 
 OBS1: puxe a pasta "divididas-com-bordas-do-meio" do passo 3 para essa pasta do passo 4
-OBS2: As imagens da coluna da esquerda tem uma bordinha no lado direito
-OBS3: As imagens da coluna da direita tem uma bordinha no lado esquerdo
-OBS4: abra as imagens no GIMP para contar pixels e saber quantos pixels cortar da borda interna
-OBS5: Atualize as linhas 35 e 39 com os valores corretos de corte (esquerda, superior, direita, inferior) para a respectiva coluna (esquerda/direita)
 
+OBS2: As imagens da coluna da esquerda tem uma bordinha no lado direito
+
+OBS3: As imagens da coluna da direita tem uma bordinha no lado esquerdo
+
+OBS4: abra as imagens no GIMP para contar pixels e saber quantos pixels cortar da borda interna
+
+OBS5: este código vai criar uma pasta de saída chamada "divididas-sem-bordas-do-meio", vai cortar as bordinhas internas de cada coluna e salvar as imagens cortadas nessa pasta criada
+
+OBS6: Atualize as linhas 43 e 47 com os valores corretos de corte (esquerda, superior, direita, inferior) para a respectiva coluna (esquerda/direita)
+
+OBS7: execute o código, e abra as imagens para conferir se as bordas foram removidas corretamente. Se não, ajuste os valores de corte e execute novamente.
 """
+
 from PIL import Image
 import os
 

@@ -4,12 +4,23 @@ Autor: Alexandre Nassar de Peder
 Criação: 02/10/2025
 Atualização: 03/06/2026
 
-OBS1: puxe a pasta "questoes" do passo anteriores para este passo 11
-OBS2: atualize a linha 146 para o RGB 0a255 da cor da faixa do seu caderno, usando o GIMP para descobrir o RGB
-OBS4: você precisa analisar o padrão de faixa inferior. Ás vezes, nem vai ter faixa inferior. 
-ATUALIZE A LINHA 25 COM O PADRÃO DA SUA PROVA. Se precisar, use IA para analisar o padrão da faixa inferior
-OBS5: se estiver muito difícil para recortar os excessos inferiores, você pode simplesmente fazer um recorte manualmente, usando o GIM
+OBS1: puxe a pasta "questoes" do passo 10 para este passo 11
+
+OBS2: este código vai criar uma pasta de saída chamada "finalizadas", vai percorrer o pixel central de baixo para cima procurando pelo padrão visual, e vai recortar as imagens que tem rascunho analisando, salvando as imagens recortadas nessa pasta criada. As imagens que não tiverem rascunho, serão copiadas para a pasta de saída sem alterações.
+
+OBS3: depende muito da sua prova. Tem provas que o rascunho é identificado por um padrão visual igual ao do início de uma questão; tem provas que o padrão é diferente. Tem provas que nem tem o padrão.
+
+Nas provas em que o padrão visual do rascunho é igual ao do início de uma questão, provavelmente já recortou no passo 7.
+
+Nas provas em que o padrão visual é diferente, você vai ter que identificar o padrão visual do rascunho, usar IA para mudar minimamente o código percorrendo o pixel de baixo para cima e procurar pelo padrão. Caso encontre, recorte antes de começar o padrão. Caso não encontre, significa que não tem rascunho e deve manter a imagem original, sem nenhuma alteração.
+
+Nas provas que não tem padrão visual, pode ser interessante percorrer todos os pixels de baixo para cima, procurando por algum pixel que não seja branco. Enquanto encontrar linhas com pixels exclusivamente brancos, significa que ainda é rascunho. No momento que encontrar uma linha que tenha algum pixel que não seja branco, significa que acabou o rascunho e chegou nos pixels da alternativa E. Ou seja, deve-se cortar de modo que mantenha o pixel que não é branco.
+
+CADA CASO É UM CASO. SEJA CRÍTICO. EXPLIQUE MUITO BEM PARA A IA!
+
+OBS4: execute o código e abra as imagens para conferir se os excessos inferiores foram recortados corretamente. Se não, ajuste os valores de corte e execute novamente.
 """
+
 from PIL import Image
 import os
 import shutil

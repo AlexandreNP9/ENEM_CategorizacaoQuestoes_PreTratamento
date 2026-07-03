@@ -5,9 +5,14 @@ Criação: 02/10/2025
 Atualização: 03/06/2026
 
 OBS1: puxe a pasta "imagens-convertidas" do passo 1 para essa pasta do passo 2
-OBS2: abra a imagem no GIMP e conte pixels para saber quanto de borda tem que cortar
-OBS3: atualize a linha 28 com os valores corretos de corte (esquerda, superior, direita, inferior)
-OBS4: execute o código, e abra as imagens para conferir se as bordas foram removidas corretamente. Se não, ajuste os valores de corte e execute novamente.
+
+OBS2: abra a imagem no GIMP e conte pixels para saber quanto de borda tem que cortar.
+
+OBS3: atualize a linha 33 com os valores corretos de corte (esquerda, superior, direita, inferior)
+
+OBS4: tenha em mente desde já que você vai usar as imagens futuramente, então corte pensando na melhor maneira para executar todos os 12 passos
+
+OBS5: execute o código, e abra as imagens para conferir se as bordas foram removidas corretamente. Se não, ajuste os valores de corte e execute novamente.
 """
 
 from PIL import Image

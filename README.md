@@ -28,7 +28,11 @@ Adicione os binários do poppler às variáveis de ambiente do PATH
 - Novo > Cole o caminho dos binários do poppler que você copiou > Ok  
 
 # EXECUTAR OS CÓDIGOS NAS PASTAS
-Cada pasta tem códigos e instruções específicas. Copie para o seu repositório e siga os passos com atenção.  
+Cada pasta tem códigos e instruções específicas. Copie para o seu repositório e siga os passos com atenção, ==> ADAPTANDO PARA SUA PROVA CONFORME NECESSÁRIO <==.  
+
+# UMA DICA
+Nos códigos, você tem que ler as instruções.  
+Use o comando ```Alt + Z``` para quebrar as linhas.
 
 # O QUE FAZER DEPOIS?
 Envie o link do seu repositório na atividade do Classroom.
